@@ -1,0 +1,17 @@
+{
+  "name": "empirical_project",
+  "version": "1.0.0",
+  "description": "Web server app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js --reporter spec",
+    "start": "node app.js"
+  },
+  "author": "Inbar AM",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0"
+  }
+}

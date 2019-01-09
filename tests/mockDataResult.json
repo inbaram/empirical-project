@@ -1,0 +1,116 @@
+{
+  "top_5_models_highest_score": [
+    {
+      "file_size": 122,
+      "model_name": "6",
+      "model_path": "models\\svr.joblib",
+      "model_score": 20
+    },
+    {
+      "file_size": 221,
+      "model_name": "8",
+      "model_path": "models\\svr.joblib",
+      "model_score": 12
+    },
+    {
+      "file_size": 56,
+      "model_name": "5",
+      "model_path": "models\\svr.joblib",
+      "model_score": 12
+    },
+    {
+      "file_size": 250,
+      "model_name": "4",
+      "model_path": "models\\svr.joblib",
+      "model_score": 10
+    },
+    {
+      "file_size": 20,
+      "model_name": "3",
+      "model_path": "models\\svr.joblib",
+      "model_score": 6
+    }
+  ],
+  "all_models_names_highest_score": [
+    {
+      "file_size": 122,
+      "model_name": "6",
+      "model_path": "models\\svr.joblib",
+      "model_score": 20
+    },
+    {
+      "file_size": 221,
+      "model_name": "8",
+      "model_path": "models\\svr.joblib",
+      "model_score": 12
+    },
+    {
+      "file_size": 56,
+      "model_name": "5",
+      "model_path": "models\\svr.joblib",
+      "model_score": 12
+    },
+    {
+      "file_size": 250,
+      "model_name": "4",
+      "model_path": "models\\svr.joblib",
+      "model_score": 10
+    },
+    {
+      "file_size": 20,
+      "model_name": "3",
+      "model_path": "models\\svr.joblib",
+      "model_score": 6
+    },
+    {
+      "file_size": 20,
+      "model_name": "2",
+      "model_path": "models\\svr.joblib",
+      "model_score": 5
+    },
+    {
+      "file_size": 21,
+      "model_name": "7",
+      "model_path": "models\\svr.joblib",
+      "model_score": 3
+    },
+    {
+      "file_size": 100,
+      "model_name": "1",
+      "model_path": "models\\svr.joblib",
+      "model_score": 1
+    }
+  ],
+  "top_5_models_file_size_and_score": [
+    {
+      "file_size": 20,
+      "model_name": "3",
+      "model_path": "models\\svr.joblib",
+      "model_score": 6
+    },
+    {
+      "file_size": 20,
+      "model_name": "2",
+      "model_path": "models\\svr.joblib",
+      "model_score": 5
+    },
+    {
+      "file_size": 21,
+      "model_name": "7",
+      "model_path": "models\\svr.joblib",
+      "model_score": 3
+    },
+    {
+      "file_size": 56,
+      "model_name": "5",
+      "model_path": "models\\svr.joblib",
+      "model_score": 12
+    },
+    {
+      "file_size": 100,
+      "model_name": "2",
+      "model_path": "models\\svr.joblib",
+      "model_score": 2
+    }
+  ]
+}

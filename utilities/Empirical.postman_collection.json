@@ -1,0 +1,303 @@
+{
+	"info": {
+		"_postman_id": "fe73a41c-f963-4dda-9a96-24464fdff1cd",
+		"name": "Empirical",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Models",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Models By Sort Score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/score",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"score"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Model With Highest Score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/model/score",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"model",
+						"score"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top X Models By Sort Score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/score/2",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"score",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Models By Model Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/name/1546803221",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"name",
+						"1546803221"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Models By Model Name and Sort Score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/score/name/1546803221",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"score",
+						"name",
+						"1546803221"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Model By Model Name and Highest Score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/model/score/name/1546803221",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"model",
+						"score",
+						"name",
+						"1546803221"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top X Models With Model Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/score/2/name/1546803221",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"score",
+						"2",
+						"name",
+						"1546803221"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get For Each Model Name The Model With Highest Score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/names/score",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"names",
+						"score"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Models With Sort File Size (asc)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/size",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"size"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top X Models By Sort File Size (asc) and Highest score (desc)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/size/score/3",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"size",
+						"score",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Model By File Size and Score",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/models/fmin/100/fmax/2000/smin/0.080/smax/0.09",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"models",
+						"fmin",
+						"100",
+						"fmax",
+						"2000",
+						"smin",
+						"0.080",
+						"smax",
+						"0.09"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
